@@ -1,0 +1,5 @@
+
+curl -s -k -H "Content-Type: application/json" -H "Authorization: Bearer {Access Token}" https://language.googleapis.com/v1/documents:analyzeEntities -d @json/trimmed_CallLog-36250230000-36250232567.json > result/result_trimmed_CallLog-36250230000-36250232567.json
+curl -s -k -H "Content-Type: application/json" -H "Authorization: Bearer {Access Token}" https://language.googleapis.com/v1/documents:analyzeEntities -d @json/trimmed_CallLog-36250230000-36250232917.json > result/result_trimmed_CallLog-36250230000-36250232917.json
+curl -s -k -H "Content-Type: application/json" -H "Authorization: Bearer {Access Token}" https://language.googleapis.com/v1/documents:analyzeEntities -d @json/trimmed_CallLog-36250230000-36250236398.json > result/result_trimmed_CallLog-36250230000-36250236398.json
+curl -s -k -H "Content-Type: application/json" -H "Authorization: Bearer {Access Token}" https://language.googleapis.com/v1/documents:analyzeEntities -d @json/trimmed_CallLog-36250230000-36250237941.json > result/result_trimmed_CallLog-36250230000-36250237941.json
